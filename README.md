@@ -1,7 +1,7 @@
 # dippr
 Dippr is an open-source livestreaming service.
 
-The entire site spans across 3 repositories: [Backend](https://github.com/dippr/dippr_backend) - [Streaming](https://github.com/dippr/dippr_streaming) - **Client**
+The entire site spans across 3 repositories: [Backend](https://github.com/dippr/dippr_backend) - [Streaming](https://github.com/dippr/dippr_stream) - **Client**
 
 # dippr_client
 This repository holds the entire dippr webclient.
