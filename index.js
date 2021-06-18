@@ -9,10 +9,10 @@ const httpServer = http.Server(app);
 const PORT = 80;
 
 app.get('/', function(req, res){
-	res.sendFile(__dirname + '/public/index.html');
+	res.sendFile(__dirname + '/build/index.html');
 });
 
-app.use('/', express.static(path.join(__dirname, 'public')));
+app.use('/', express.static(path.join(__dirname, 'build')));
 
 httpServer.listen(PORT, function(){
 	console.log('listening on *:' + PORT);
