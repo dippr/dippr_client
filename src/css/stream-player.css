@@ -1,0 +1,12 @@
+.stream-player {
+	height: 100%;
+}
+
+.stream-video {
+	width: 100%;
+	height: 100%;
+}
+
+.stream-video::-webkit-media-controls-timeline {
+	display: none;
+}

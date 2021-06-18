@@ -1,0 +1,75 @@
+.nav-card {
+	width: 33%;
+
+	transition: 0.25s all ease;
+}
+
+.nav-card.closed {
+	width: 5%;
+	border: 0px;
+}
+
+.nav-card.closed .card-body {
+	padding: 0.1rem;
+}
+
+.heading {
+	text-decoration: none;
+	font-size: 0px;
+}
+
+.heading h1 {
+	font-size: 40px;
+	transition: 0.25s all ease;
+}
+
+.nav-card.closed .heading h1 {
+	font-size: 0;
+}
+
+.nav-close {
+	position: absolute;
+	top: -12px;
+	right: 5px;
+	font-size: 32px;
+	cursor: pointer;
+	user-select: none;
+	transform: scale(1);
+	font-weight: bold;
+
+	transition: 50ms all ease;
+}
+
+.nav-card.closed .nav-close {
+	right: 25%;
+}
+
+.nav-close:hover {
+	transform: scale(1.2);
+}
+
+.logo {
+	width: 100%;
+	-webkit-user-drag: none;
+	user-select: none;
+	margin-top: 0;
+}
+
+.nav-card.closed .logo {
+	margin-top: 1rem;
+}
+
+.nav-settings {
+	overflow: hidden;
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+
+	transition: 0.1s all ease;
+}
+
+.nav-card.closed .nav-settings {
+	width: 0;
+	height: 0;
+	opacity: 0;
+}

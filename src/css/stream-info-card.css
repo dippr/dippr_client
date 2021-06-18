@@ -1,0 +1,13 @@
+.stream-info-card {
+	--margin: 1%;
+	width: calc(25% - (var(--margin) * 2));
+	height: 200px;
+
+	margin: 0 var(--margin);
+
+	cursor: pointer;
+}
+
+.stream-info-card .card {
+	height: 85%;
+}

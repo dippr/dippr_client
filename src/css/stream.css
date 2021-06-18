@@ -1,0 +1,22 @@
+.card-column {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	height: 100%;
+}
+
+.card-column .card {
+	height: 100%;
+}
+
+.card-column .card:first-child {
+	margin-bottom: 16px;
+}
+
+.card-column .card.stream-chat-card {
+	margin-bottom: 0px;
+}
+
+#outputCanvasContainer canvas {
+	width: 100%;
+}

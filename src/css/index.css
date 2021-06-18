@@ -1,0 +1,20 @@
+.app {
+	--width: 95vw;
+	--height: 95vh;
+
+	position: fixed;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+
+	width: var(--width);
+	height: var(--height);
+
+	left: calc((100vw - var(--width)) / 2);
+	top: calc((100vh - var(--height)) / 2);
+}
+
+.main-card {
+	width: 100%;
+	margin-left: 1vw;
+}

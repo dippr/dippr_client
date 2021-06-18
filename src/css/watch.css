@@ -1,0 +1,13 @@
+.stream-container {
+	height: 70%;
+	border: 1px solid gray;
+}
+
+.chat-row {
+	border-left: 1px solid #eee;
+}
+
+.stream-title * {
+	display: inline;
+	margin-right: 10px;
+}
